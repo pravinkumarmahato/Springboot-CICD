@@ -1,5 +1,6 @@
 package com.kaiburrtask.model;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.AllArgsConstructor;
@@ -7,8 +8,9 @@ import lombok.NoArgsConstructor;
 import lombok.Data;
 
 @Document(collection = "server")
-@AllArgsConstructor
-@NoArgsConstructor
+//@AllArgsConstructor
+//@RequiredArgsConstructor
+//@NoArgsConstructor
 @Data
 public class ServerObj {
     @Id
