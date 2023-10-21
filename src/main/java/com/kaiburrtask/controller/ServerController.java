@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.kaiburrtask.model.ServerObj;
 import com.kaiburrtask.service.ServerService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/servers")
 public class ServerController {
