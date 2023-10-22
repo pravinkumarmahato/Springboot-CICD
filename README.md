@@ -24,6 +24,7 @@ Create a CI-CD pipeline for a sample application (built in task 1 and/or 4 above
   In the Github repository go to Actions search for Java with maven click on configure of first one, and edit yml file according to the project and click commit
 ### Step-7:
   Now it will create a CI-CD workflow in the Github Action of the repository
+  
     Add the following steps in the workflow:
     - Checkout
     - Setup Java
