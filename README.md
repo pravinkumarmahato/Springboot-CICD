@@ -25,12 +25,19 @@ Create a CI-CD pipeline for a sample application (built in task 1 and/or 4 above
   Now it will create a CI-CD workflow in the Github Action of the repository
   
   Add the following steps in the workflow:
+  
     - Checkout
+    
     - Setup Java
+    
     - name: Build app with Maven
+    
     - Setup QEMU
+    
     - Setup Docker Buildx
+    
     - Login to Docker Hub
+    
     - Build and push Docker Image to Docker Hub
     
   Now whenever we do some change and push the code to Github Action,it will Integrate and Deploy the Code Automaticaly to the github pages.Then it will build docker image and push the docker image to the docker hub.
