@@ -7,16 +7,16 @@ Create a CI-CD pipeline for a sample application (built in task 1 and/or 4 above
 
 ## The steps to Create Project:
 ### Step-1:
-    Install mongo db in the system or we can use Mongo Atlas(for cloud mongo database)
-    Install Java JDK in the system to run java code
-    Setup JDK path
-    Install Spring Tool Suit in the system to create and run spring boot application
-    Install Postman to test the Rest API
+  Install mongo db in the system or we can use Mongo Atlas(for cloud mongo database)
+  Install Java JDK in the system to run java code
+  Setup JDK path
+  Install Spring Tool Suit in the system to create and run spring boot application
+  Install Postman to test the Rest API
 ### Step-2:
-    Setup Mongo db
-    Create Spring Boot Rest API
+  Setup Mongo db
+  Create Spring Boot Rest API
 ### Step-3:
-    Set Mongodb URI and Port in application.properties file so that the Rest API should connect to the mongodb
+  Set Mongodb URI and Port in application.properties file so that the Rest API should connect to the mongodb
 ### Step-5:
   Create a github repository
 ### Step-6:
@@ -26,9 +26,7 @@ Create a CI-CD pipeline for a sample application (built in task 1 and/or 4 above
   Now it will create a CI-CD workflow in the Github Action of the repository
   
   Add the following steps in the workflow:
-  
     - Checkout
-    
     - Setup Java
     
     - name: Build app with Maven
